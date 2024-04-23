@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8744F02D2B957EAD0099A60B /* OMATApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8744F02C2B957EAD0099A60B /* OMATApp.swift */; };
+		8744F02F2B957EAD0099A60B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8744F02E2B957EAD0099A60B /* ContentView.swift */; };
+		8744F0312B957EAF0099A60B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8744F0302B957EAF0099A60B /* Assets.xcassets */; };
+		8744F0342B957EAF0099A60B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8744F0332B957EAF0099A60B /* Preview Assets.xcassets */; };
+		8744F03C2B957F780099A60B /* TensecView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8744F03B2B957F780099A60B /* TensecView.swift */; };
+		8744F03E2B957F890099A60B /* FifteensecView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8744F03D2B957F890099A60B /* FifteensecView.swift */; };
+		8744F0402B957F9B0099A60B /* TwentysecView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8744F03F2B957F9B0099A60B /* TwentysecView.swift */; };
+		8744F0422B958F5C0099A60B /* ThirtysecView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8744F0412B958F5C0099A60B /* ThirtysecView.swift */; };
+		E7080C9B2BCCD71D00ED5BB4 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7080C982BCCD71D00ED5BB4 /* GridView.swift */; };
+		E7080C9C2BCCD71D00ED5BB4 /* GridModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7080C992BCCD71D00ED5BB4 /* GridModel.swift */; };
+		E7080C9D2BCCD71D00ED5BB4 /* SavedGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7080C9A2BCCD71D00ED5BB4 /* SavedGridView.swift */; };
+		E72997FD2BAD0A34003B897D /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72997FC2BAD0A34003B897D /* InfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8744F0292B957EAD0099A60B /* OMAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMAT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8744F02C2B957EAD0099A60B /* OMATApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMATApp.swift; sourceTree = "<group>"; };
+		8744F02E2B957EAD0099A60B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8744F0302B957EAF0099A60B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8744F0332B957EAF0099A60B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8744F03B2B957F780099A60B /* TensecView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TensecView.swift; sourceTree = "<group>"; };
+		8744F03D2B957F890099A60B /* FifteensecView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifteensecView.swift; sourceTree = "<group>"; };
+		8744F03F2B957F9B0099A60B /* TwentysecView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwentysecView.swift; sourceTree = "<group>"; };
+		8744F0412B958F5C0099A60B /* ThirtysecView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirtysecView.swift; sourceTree = "<group>"; };
+		E7080C982BCCD71D00ED5BB4 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		E7080C992BCCD71D00ED5BB4 /* GridModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridModel.swift; sourceTree = "<group>"; };
+		E7080C9A2BCCD71D00ED5BB4 /* SavedGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedGridView.swift; sourceTree = "<group>"; };
+		E72997FC2BAD0A34003B897D /* InfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8744F0262B957EAD0099A60B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8744F0202B957EAD0099A60B = {
+			isa = PBXGroup;
+			children = (
+				8744F02B2B957EAD0099A60B /* OMAT */,
+				8744F02A2B957EAD0099A60B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8744F02A2B957EAD0099A60B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8744F0292B957EAD0099A60B /* OMAT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8744F02B2B957EAD0099A60B /* OMAT */ = {
+			isa = PBXGroup;
+			children = (
+				8744F03A2B957F4A0099A60B /* Views */,
+				8744F02C2B957EAD0099A60B /* OMATApp.swift */,
+				E7080C992BCCD71D00ED5BB4 /* GridModel.swift */,
+				E7080C982BCCD71D00ED5BB4 /* GridView.swift */,
+				8744F02E2B957EAD0099A60B /* ContentView.swift */,
+				8744F0302B957EAF0099A60B /* Assets.xcassets */,
+				8744F0322B957EAF0099A60B /* Preview Content */,
+			);
+			path = OMAT;
+			sourceTree = "<group>";
+		};
+		8744F0322B957EAF0099A60B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8744F0332B957EAF0099A60B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8744F03A2B957F4A0099A60B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8744F03B2B957F780099A60B /* TensecView.swift */,
+				E72997FC2BAD0A34003B897D /* InfoView.swift */,
+				E7080C9A2BCCD71D00ED5BB4 /* SavedGridView.swift */,
+				8744F03D2B957F890099A60B /* FifteensecView.swift */,
+				8744F03F2B957F9B0099A60B /* TwentysecView.swift */,
+				8744F0412B958F5C0099A60B /* ThirtysecView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8744F0282B957EAD0099A60B /* OMAT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8744F0372B957EAF0099A60B /* Build configuration list for PBXNativeTarget "OMAT" */;
+			buildPhases = (
+				8744F0252B957EAD0099A60B /* Sources */,
+				8744F0262B957EAD0099A60B /* Frameworks */,
+				8744F0272B957EAD0099A60B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OMAT;
+			productName = OMAT;
+			productReference = 8744F0292B957EAD0099A60B /* OMAT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8744F0212B957EAD0099A60B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8744F0282B957EAD0099A60B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 8744F0242B957EAD0099A60B /* Build configuration list for PBXProject "OMAT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8744F0202B957EAD0099A60B;
+			productRefGroup = 8744F02A2B957EAD0099A60B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8744F0282B957EAD0099A60B /* OMAT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8744F0272B957EAD0099A60B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8744F0342B957EAF0099A60B /* Preview Assets.xcassets in Resources */,
+				8744F0312B957EAF0099A60B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8744F0252B957EAD0099A60B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72997FD2BAD0A34003B897D /* InfoView.swift in Sources */,
+				8744F0422B958F5C0099A60B /* ThirtysecView.swift in Sources */,
+				8744F03C2B957F780099A60B /* TensecView.swift in Sources */,
+				8744F0402B957F9B0099A60B /* TwentysecView.swift in Sources */,
+				E7080C9D2BCCD71D00ED5BB4 /* SavedGridView.swift in Sources */,
+				8744F02F2B957EAD0099A60B /* ContentView.swift in Sources */,
+				E7080C9C2BCCD71D00ED5BB4 /* GridModel.swift in Sources */,
+				8744F03E2B957F890099A60B /* FifteensecView.swift in Sources */,
+				E7080C9B2BCCD71D00ED5BB4 /* GridView.swift in Sources */,
+				8744F02D2B957EAD0099A60B /* OMATApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8744F0352B957EAF0099A60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8744F0362B957EAF0099A60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8744F0382B957EAF0099A60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_ASSET_PATHS = "\"OMAT/Preview Content\"";
+				DEVELOPMENT_TEAM = L47V2H4MXH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = OMAT;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VNEL.OMAT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8744F0392B957EAF0099A60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_ASSET_PATHS = "\"OMAT/Preview Content\"";
+				DEVELOPMENT_TEAM = L47V2H4MXH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = OMAT;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VNEL.OMAT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8744F0242B957EAD0099A60B /* Build configuration list for PBXProject "OMAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8744F0352B957EAF0099A60B /* Debug */,
+				8744F0362B957EAF0099A60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8744F0372B957EAF0099A60B /* Build configuration list for PBXNativeTarget "OMAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8744F0382B957EAF0099A60B /* Debug */,
+				8744F0392B957EAF0099A60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8744F0212B957EAD0099A60B /* Project object */;
+}
